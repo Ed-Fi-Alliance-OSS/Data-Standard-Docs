@@ -1,5 +1,7 @@
 # Ed-Fi Data Standard Documents
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Ed-Fi-Alliance-OSS/data-standard-docs/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Ed-Fi-Alliance-OSS/data-standard-docs)
+
 Consisting of HTML handbooks for the core Ed-Fi Data Standard and the Educator
 Preparation Data Model ("EPDM", formerly known as "TPDM").
 
