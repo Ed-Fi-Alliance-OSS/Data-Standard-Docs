@@ -1,0 +1,609 @@
+﻿
+<!DOCTYPE html>
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"
+      prefix="og: http://ogp.me/ns#">
+<head>
+    
+    
+    <meta charset="UTF-8"/>
+    <title>Core XML Schema - InternationalAddress (Complex Type) | Ed-Fi Student Data Tool Suite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+   
+    
+    <link rel='stylesheet' id='bootstrap-css'
+          href='../wp-content/themes/ed-fi/bootstrap/css/bootstrap.min.css' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='ed-fi-css'
+          href='http://www.ed-fi.org/wp-content/themes/ed-fi/style.css?ver=1382590465' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='ed-fi-docs-css'
+          href='../wp-content/themes/ed-fi/style-docs.css' type='text/css'
+          media='all'/>
+    
+   
+        
+    <script type='text/javascript'
+            src='http://www.ed-fi.org/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+    <script type='text/javascript'
+            src='http://www.ed-fi.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+    <script type='text/javascript'
+            src='../wp-content/themes/ed-fi/bootstrap/js/bootstrap.min.js'></script>
+    <script type='text/javascript'
+            src='../wp-content/themes/ed-fi/js/tech-docs-menu.js'></script>
+
+    <link rel="Shortcut Icon" href="http://www.ed-fi.org/wp-content/themes/ed-fi/images/favicon.ico" type="image/x-icon" />
+    <link rel="pingback" href="http://www.ed-fi.org/xmlrpc.php" />
+
+    </head>
+    <body class="docs page page-template-default full-width-content" itemscope="itemscope"
+          itemtype="http://schema.org/WebPage">
+    <div class="site-container">
+        <header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+      
+        </header>
+        <div class="site-inner">
+            <div class="wrap">
+                <div class="content-sidebar-wrap">
+                    <main class="content" role="main" itemprop="mainContentOfPage">
+                        <section class="docs-content">
+
+                            
+<div class="container">
+	<div class="row-fluid">
+		<div class="span12">
+					<div>
+			<a name="Link14B"> </a>
+			<span class="elementHeader">complexType </span>
+			<span class="elementHeader2">InternationalAddress</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><map id="Map1" name="Map1"><area alt="" coords="214,0,334,93" href="ed-fi-core_internationaladdress.html#Link457" /><area alt="" coords="214,105,334,143" href="ed-fi-core_internationaladdress.html#Link458" /><area alt="" coords="214,155,313,204" href="ed-fi-core_internationaladdress.html#Link459" /><area alt="" coords="214,216,337,254" href="ed-fi-core_internationaladdress.html#Link45A" /><area alt="" coords="214,266,309,315" href="ed-fi-core_internationaladdress.html#Link45B" /><area alt="" coords="214,327,325,365" href="ed-fi-core_internationaladdress.html#Link39F" /><area alt="" coords="346,6,346,6" href="ed-fi-core_countrydescriptorreferencetype.html#LinkA1" /><area alt="" coords="214,377,329,426" href="ed-fi-core_internationaladdress.html#Link45C" /><area alt="" coords="214,438,336,487" href="ed-fi-core_internationaladdress.html#Link45D" /><area alt="" coords="214,499,336,581" href="ed-fi-core_internationaladdress.html#Link45E" /><area alt="" coords="214,593,339,675" href="ed-fi-core_internationaladdress.html#Link45F" /></map><img src="ed-fi-core_diagrams/ed-fi-core_p682.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p682.png" style="border-style:none;" usemap="#Map1" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">children</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_internationaladdress.html#Link457"><span class="schemaName">AddressType</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link458"><span class="schemaName">AddressLine1</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link459"><span class="schemaName">AddressLine2</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link45A"><span class="schemaName">AddressLine3</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link45B"><span class="schemaName">AddressLine4</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link39F"><span class="schemaName">Country</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link45C"><span class="schemaName">Latitude</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link45D"><span class="schemaName">Longitude</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link45E"><span class="schemaName">BeginDate</span></a><span class="schemaName"> </span><a href="ed-fi-core_internationaladdress.html#Link45F"><span class="schemaName">EndDate</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">used by</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">elements</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><a href="ed-fi-core_educationorganization.html#Link451"><span class="schemaName">EducationOrganization/InternationalAddress</span></a><span class="schemaName"> </span><a href="ed-fi-core_parent.html#Link50A"><span class="schemaName">Parent/InternationalAddress</span></a><span class="schemaName"> </span><a href="ed-fi-core_staff.html#Link50B"><span class="schemaName">Staff/InternationalAddress</span></a><span class="schemaName"> </span><a href="ed-fi-core_student.html#Link50C"><span class="schemaName">Student/InternationalAddress</span></a></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Addresses located outside of the United States.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:TypeGroup&gt;Common&lt;/ann:TypeGroup&gt;<br />
+&lt;ann:EdFiId&gt;509&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:complexType</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;InternationalAddress</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">Addresses located outside of the United States.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:TypeGroup</span><span class="textOperator">&gt;</span><span class="textContents">Common</span><span class="textOperator">&lt;/</span><span class="textElement">ann:TypeGroup</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">509</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:sequence</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressType</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressType</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The type of address listed for an individual or organization. For example:&nbsp; Physical Address, Mailing Address, Home Address, etc.)</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">841</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine1</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The first line of the address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">837</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine2</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The second line of the address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">838</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine3</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The third line of the address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">839</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine4</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The fourth line of the address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">840</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;Country</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;CountryDescriptorReferenceType</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The name of the country.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">843</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;Latitude</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;Coordinate</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The geographic latitude of the physical address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">845</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;Longitude</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;Coordinate</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The geographic longitude of the physical address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">846</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;BeginDate</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;xs:date</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The first date the address is valid. For physical addresses, the date the person moved to that address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">842</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;EndDate</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;xs:date</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The last date the address is valid. For physical addresses, this would be the date the person moved from that address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">844</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:sequence</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:complexType</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link457"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/AddressType</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p683.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p683.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_addresstype.html#Link16"><span class="schemaName">AddressType</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">facets</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Kind</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Value</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Annotation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Billing</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-001&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Father Address</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-003&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Home</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-005&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Guardian Address</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-004&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Mailing</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-007&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Mother Address</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-008&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Other</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-009&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Physical</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-010&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Shipping</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-012&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Temporary</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-013&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Work</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-015&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Shelters, Transitional housing, Awaiting Foster Care</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-011&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Doubled - up (i.e., living with another family)</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-002&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Unsheltered (e.g. cars, parks, campgrounds, temporary trailers including FEMA trailers, or abandoned buildings)</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-014&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">enumeration</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">Hotels/Motels</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;125-006&lt;/ann:EdFiId&gt;</span></td></tr></table></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The type of address listed for an individual or organization. For example:&nbsp; Physical Address, Mailing Address, Home Address, etc.)</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;841&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressType</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressType</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The type of address listed for an individual or organization. For example:&nbsp; Physical Address, Mailing Address, Home Address, etc.)</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">841</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link458"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/AddressLine1</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p684.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p684.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_addressline.html#Link14"><span class="schemaName">AddressLine</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">facets</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Kind</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Value</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Annotation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">minLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">maxLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">150</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The first line of the address.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;837&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine1</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The first line of the address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">837</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link459"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/AddressLine2</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p685.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p685.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_addressline.html#Link14"><span class="schemaName">AddressLine</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">minOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">0</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">maxOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">facets</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Kind</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Value</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Annotation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">minLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">maxLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">150</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The second line of the address.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;838&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine2</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The second line of the address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">838</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link45A"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/AddressLine3</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p686.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p686.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_addressline.html#Link14"><span class="schemaName">AddressLine</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">minOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">0</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">maxOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">facets</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Kind</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Value</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Annotation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">minLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">maxLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">150</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The third line of the address.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;839&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine3</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The third line of the address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">839</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link45B"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/AddressLine4</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p687.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p687.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_addressline.html#Link14"><span class="schemaName">AddressLine</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">minOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">0</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">maxOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">facets</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Kind</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Value</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Annotation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">minLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">maxLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">150</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The fourth line of the address.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;840&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine4</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;AddressLine</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The fourth line of the address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">840</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link39F"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/Country</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><map id="Map2" name="Map2"><area alt="" coords="132,6,132,6" href="ed-fi-core_countrydescriptorreferencetype.html#LinkA1" /><area alt="" coords="168,59,292,108" href="ed-fi-core_referencetype.html#Link26E" /><area alt="" coords="168,115,284,175" href="ed-fi-core_referencetype.html#Link26F" /><area alt="" coords="223,194,341,243" href="ed-fi-core_descriptorreferencetype.html#Link270" /><area alt="" coords="223,255,348,480" href="ed-fi-core_descriptorreferencetype.html#Link271" /></map><img src="ed-fi-core_diagrams/ed-fi-core_p688.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p688.png" style="border-style:none;" usemap="#Map2" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_countrydescriptorreferencetype.html#LinkA1"><span class="schemaName">CountryDescriptorReferenceType</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">complex</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">children</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_descriptorreferencetype.html#Link270"><span class="schemaName">CodeValue</span></a><span class="schemaName"> </span><a href="ed-fi-core_descriptorreferencetype.html#Link271"><span class="schemaName">Namespace</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">attributes</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubTitle">Name</span><span class="schemaSubTitle">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubTitle">Type</span><span class="schemaSubTitle">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubTitle">Use</span><span class="schemaSubTitle">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubTitle">Default</span><span class="schemaSubTitle">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubTitle">Fixed</span><span class="schemaSubTitle">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubTitle">Annotation</span></td></tr><tr><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><a href="ed-fi-core_referencetype.html#Link26E"><span class="schemaSubData">id</span></a><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaName">xs:ID</span><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubData"></span><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubData"></span><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubData"></span><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The XML ID associated with this complex object.</span></td></tr></table></td></tr><tr><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><a href="ed-fi-core_referencetype.html#Link26F"><span class="schemaSubData">ref</span></a><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaName">xs:IDREF</span><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubData"></span><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubData"></span><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><span class="schemaSubData"></span><span class="schemaSubData">&nbsp;&nbsp;</span></td><td align="left" valign="top" style="width:16%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The XML IDREF that references the object associated with this object.</span></td></tr></table></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The name of the country.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;843&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;Country</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;CountryDescriptorReferenceType</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The name of the country.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">843</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link45C"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/Latitude</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p689.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p689.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_coordinate.html#Link70"><span class="schemaName">Coordinate</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">minOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">0</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">maxOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">facets</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Kind</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Value</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Annotation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">minLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">maxLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">20</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The geographic latitude of the physical address.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;845&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;Latitude</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;Coordinate</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The geographic latitude of the physical address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">845</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link45D"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/Longitude</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p690.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p690.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><a href="ed-fi-core_coordinate.html#Link70"><span class="schemaName">Coordinate</span></a></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">minOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">0</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">maxOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">facets</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Kind</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Value</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">Annotation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">minLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">maxLength</span><span class="schemaSubData">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">20</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData"> </span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The geographic longitude of the physical address.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;846&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;Longitude</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;Coordinate</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The geographic longitude of the physical address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">846</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link45E"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/BeginDate</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p691.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p691.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaName">xs:date</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">minOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">0</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">maxOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The first date the address is valid. For physical addresses, the date the person moved to that address.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;842&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;BeginDate</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;xs:date</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The first date the address is valid. For physical addresses, the date the person moved to that address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">842</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<a name="Link45F"> </a>
+			<span class="elementHeader">element </span>
+			<span class="elementHeader2">InternationalAddress/EndDate</span>
+			<table class="table-border" width="100%" cellspacing="0" cellpadding="5" border="1">
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">diagram</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#FFFFFF;"><img src="ed-fi-core_diagrams/ed-fi-core_p692.png" alt="Ed-Fi-Core_diagrams/Ed-Fi-Core_p692.png" style="border-style:none;" /></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">namespace</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaSubData">http://ed-fi.org/0200</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">type</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="schemaName">xs:date</span></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">properties</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">minOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">0</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">maxOcc</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">1</span></td></tr><tr><td align="right" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">content</span><span class="schemaSubTitle">&nbsp;</span></td><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">simple</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">annotation</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><table class="table-no-border" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">documentation</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">The last date the address is valid. For physical addresses, this would be the date the person moved from that address.</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubTitle">appinfo</span></td></tr><tr><td align="left" valign="top" style="background-color:#F0F0F0;"><span class="schemaSubData">&lt;ann:EdFiId&gt;844&lt;/ann:EdFiId&gt;</span></td></tr></table></td>
+				</tr>
+				<tr>
+					<td class="td-border" align="right" valign="top" style="width:10%;background-color:#F0F0F0;"><span class="schemaSubTitle">source</span></td>
+					<td class="td-border" align="left" valign="top" style="width:90%;background-color:#F0F0F0;"><span class="textOperator">&lt;</span><span class="textElement">xs:element</span><span class="textAttr"> name</span><span class="textOperator">=</span><span class="textContents">&quot;EndDate</span><span class="textOperator">&quot;</span><span class="textAttr"> type</span><span class="textOperator">=</span><span class="textContents">&quot;xs:date</span><span class="textOperator">&quot;</span><span class="textAttr"> minOccurs</span><span class="textOperator">=</span><span class="textContents">&quot;0</span><span class="textOperator">&quot;&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents">The last date the address is valid. For physical addresses, this would be the date the person moved from that address.</span><span class="textOperator">&lt;/</span><span class="textElement">xs:documentation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents">844</span><span class="textOperator">&lt;/</span><span class="textElement">ann:EdFiId</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp;&nbsp;&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:appinfo</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+&nbsp; </span><span class="textOperator">&lt;/</span><span class="textElement">xs:annotation</span><span class="textOperator">&gt;</span><span class="textContents"><br />
+</span><span class="textOperator">&lt;/</span><span class="textElement">xs:element</span><span class="textOperator">&gt;</span></td>
+				</tr>
+			</table>
+			<br />
+			<br />
+
+		</div>
+	</div>
+</div>
+
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+       <footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+         
+        </footer>
+    </div>
+    
+<!--wp_footer-->
+<!-- Visual Studio Browser Link -->
+<script type="application/json" id="__browserLink_initializationData">
+    {"appName":"Unknown","requestId":"b52669273a3a46478d61170356965bb2"}
+</script>
+<script type="text/javascript" src="../../localhost+55645/636bda5ca3e54c0eaffad3d2766b0e73/browserLink" async="async"></script>
+<!-- End Browser Link -->
+
+</body>
+</html>
