@@ -6,5 +6,5 @@ pagination_prev: null
 
 # EPDM Community v1.1 Handbook
 
-<iframe src="/reference/data-standard/handbook/tpdm-community-v1.1/"
+<iframe src="/data-standard-docs/handbook/tpdm-community-v1.1/"
   title="Educator Preparation Data Model (Community) v1.1 Handbook" />

@@ -6,7 +6,7 @@ Consisting of HTML handbooks for the core Ed-Fi Data Standard and the Educator
 Preparation Data Model ("EPDM", formerly known as "TPDM").
 
 For better reading, visit
-[docs.ed-fi.org](https://docs.ed-fi.org/reference/data-standard/)
+[docs.ed-fi.org](https://docs.ed-fi.org/data-standard-docs/)
 
 ## Legal Information
 
